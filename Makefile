@@ -9,6 +9,12 @@ rust-version:
 format:
 	cargo fmt --quiet
 
+install:
+	# Install if needed
+	#@echo "Updating rust toolchain"
+	#rustup update stable
+	#rustup default stable
+
 lint:
 	cargo clippy --quiet
 
@@ -21,4 +27,10 @@ run:
 release:
 	cargo build --release
 
-all: format lint test run
+all: 
+	@echo "Running the 'all' target"
+	# Call the make targets for format, lint, test, and run
+	make format
+	make lint
+	make test
+	make run
