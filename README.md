@@ -1,3 +1,5 @@
+[![Rust CI/CD Pipeline](https://github.com/nogibjj/Cindy_Gao_week7_rust_template/actions/workflows/rust.yml/badge.svg)](https://github.com/nogibjj/Cindy_Gao_week7_rust_template/actions/workflows/rust.yml)
+
 # Mini Project 7: Package a Python Script into a Command-Line Tool (or Rust)
 ## Requirements:<br>
 * Package a Python script with setuptools or a similar tool
