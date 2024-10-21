@@ -26,6 +26,7 @@ Cindy_Gao_week7_rust_template/
 ├── LICENSE
 ├── Makefile
 ├── README.md
+├── user_guide.md
 ├── src/
 │   ├── main.rs
 │   ├── lib.rs
