@@ -1,7 +1,3 @@
-Here’s a simpler version of the user guide for your Rust project:
-
----
-
 ### **User Guide for Rust Tool**
 
 ---
