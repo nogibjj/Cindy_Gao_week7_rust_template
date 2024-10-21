@@ -31,3 +31,8 @@ jobs:
       run: make test
     - name: pull repository
       run: git pull
+    - name: Upload Binary Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Cindy_Gao_week7_rust_template
+        path: target/release/Cindy_Gao_week7_rust_template
